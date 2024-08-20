@@ -125,11 +125,3 @@ SELECT branch, gender, COUNT(*) AS gender_count
 FROM sales
 GROUP BY branch, gender
 ORDER BY branch;
-```
-
-### Changes Made:
-1. Corrected the typo `cutomer_type` to `customer_type`.
-2. Added comments for clarity and structure.
-3. Used `USE WalmartData;` to switch to the database context.
-4. Structured derived column additions and updates in a clear sequence.
-5. Formatted SQL queries for better readability and consistency.
